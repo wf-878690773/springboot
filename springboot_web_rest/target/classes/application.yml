@@ -1,0 +1,19 @@
+spring:
+  #数据库连接
+  datasource:
+    url: jdbc:mysql://localhost:3306/boot?useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  # 禁用缓存
+  thymeleaf:
+    cache: false
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true #开启驼峰映射,没有配置映射关系也能完成属性注入
+
+
+
+
+
